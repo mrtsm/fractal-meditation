@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractal Meditation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fractal Meditation</h1>
+        <p class="subtitle">Breathe. Watch. Listen.</p>
+        
+        <canvas id="fractalCanvas" width="500" height="500"></canvas>
+        
+        <div class="controls">
+            <button id="startBtn" class="btn-primary">Start Experience</button>
+            <button id="stopBtn" class="btn-secondary" style="display: none;">Stop</button>
+            <button id="toggleFractalBtn" class="btn-secondary">Switch Fractal</button>
+        </div>
+        
+        <div class="info">
+            <p id="fractalType">Mandelbrot Set - Infinite Zoom</p>
+        </div>
+    </div>
+    
+    <script src="audio.js"></script>
+    <script src="fractal.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
